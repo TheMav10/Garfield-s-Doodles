@@ -11,16 +11,34 @@ header {
     border-bottom: 4px solid rgb(45, 172, 189);
 }
 
+a.one:link, a.one:visited {
+    background-color: rgb(196, 227, 231);
+    color: black;
+    border: none;
+    border-radius: 10%;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+ a.one:hover, a.one:active {
+    background-color: black;
+    color: rgb(45, 172, 189);;
+  }
+
 h1 {
     text-align: center;
     color: rgb(10, 10, 10);
-    font-family: Courier New, Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 80px;
 }
 
 h2 {
     text-align: center;
-    font-family: Courier New, Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h3 {
@@ -70,7 +88,7 @@ p {
     gap: 6px;
     max-width: 850px;
     margin: 0 auto;
-    padding: 5px 5px;
+    padding: 5px 5px 25px;
 }
 
 .lists img {
@@ -113,25 +131,37 @@ p {
     text-align: center;
     font-size: 20px;
     border-top: solid 4px rgb(45, 172, 189);
-    
+    border-bottom: solid 4px rgb(45, 172, 189);    
 }
 
 .email {
-    text-align: center;
-    margin: 4px 0 4px 0;
+    align-items: center;
     display: flex;
     flex-direction: column;
 }
 
+input {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 180px;
+    border: 1px solid;
+}
+input::placeholder {
+    font-family: cursive;
+    height: 30px;
+    width: 120px;
+}
+
 .button {
-    margin: 5px auto 5px auto;
-    height: 25px;
-    width: 75px;
-    background-color: rgb(45, 172, 189);
-    box-shadow: 0px 0px 10px 0px rgb(216, 90, 96);
+    margin: 15px auto 25px auto;
+    height: 45px;
+    width: 95px;
+    font-size: 20px;
+    font-family: cursive;
+    box-shadow: 0px 0px 10px 0px rgb(80, 156, 167);
 }
 
 .button:hover {
-    background: rgb(219, 50, 177);
-    color:rgb(248, 248, 241)
+    background: black;
+    color:rgb(45, 172, 189)
 }
