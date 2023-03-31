@@ -1,7 +1,6 @@
 body {
     background-color: rgb(210, 234, 238);
     margin: 0;
-    font-family: a;
 }
 
 header {
@@ -33,11 +32,13 @@ a.one:link, a.one:visited {
 h1 {
     text-align: center;
     color: rgb(10, 10, 10);
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
 }
 
 h2 {
     text-align: center;
-    font-family: 'ana';
+    font-family: 'Dancing Script', cursive;
 }
 
 h3 {
