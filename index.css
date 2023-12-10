@@ -134,7 +134,7 @@ p {
     border-bottom: solid 4px rgb(45, 172, 189);    
 }
 
-.email {
+.email, footer {
     align-items: center;
     display: flex;
     flex-direction: column;
